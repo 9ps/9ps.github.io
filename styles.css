@@ -1,0 +1,125 @@
+/* GLOBAL */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  color: #ced4da;
+  transition-duration: 300ms;
+}
+
+body {
+  background-color: #21252a;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+
+/* HEADER */
+
+#navbar {
+  background-color: #21252a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 32px 32px 32px 64px;
+  border-bottom: solid #343a40 4px;
+  box-shadow: 0 32px 32px #21252a;
+  z-index: 1;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 64px;
+  }
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ced4da;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #343a40;
+}
+
+/* WELCOME */
+
+#welcome-section {
+  height: 100vh;
+  min-height: 600px;
+  background-color: #21252a;
+  margin: 0 64px 0 64px;
+}
+
+#title {
+  padding-top: 196px;
+  max-width: 1200px;
+}
+
+button {
+  color: black;
+  background-color: #ced4da;
+  border: solid 4px black;
+  box-shadow: 16px 16px #343a40;
+  font-weight: bold;
+
+  padding: 16px 32px 16px 32px;
+  font-size: 32px;
+  border-radius: 8px;
+  margin-bottom: 64px;
+
+  position: absolute;
+  bottom: 0;
+  right: 64px;
+}
+
+button:hover {
+  background-color: black;
+  color: #ced4da;
+}
+
+/* PROJECTS */
+
+#projects {
+  margin: 0 64px 0 64px;
+}
+
+.project-tile a {
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 32px 0 32px 0;
+}
+
+.project-tile a:hover {
+  color: white;
+  background-color: #343a40;
+}
+
+.project-tile p {
+  margin: 16px 0 64px;
+  max-width: 32em;
+}
+
+/* LINKS */
+
+#profile-link {
+  float: right;
+  margin: 64px;
+}
